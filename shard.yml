@@ -1,0 +1,17 @@
+name: blockchain-test
+version: 0.1.0
+
+authors:
+  - Tilzen <lucas.nascimentoR@hotmail.com>
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+targets:
+  blockchain-test:
+    main: src/blockchain-test.cr
+
+crystal: 0.34.0
+
+license: MIT
